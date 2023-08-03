@@ -27,7 +27,7 @@ if($action == 'delete_folder'){
 if($action == 'delete_file'){
 	$delete = $crud->delete_file();
 	if($delete)
-		echo $delete;
+		echo $delete; 
 }
 if($action == 'save_files'){
 	$save = $crud->save_files();
